@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de contactos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/javascript/funciones.js" async defer></script>
+    <script src="/javascript/main.js" async defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- head-->
+        <h2>Agenda de contactos</h2>
+        <!-- formulario de datos -->
+        <div class="formulario-datos">
+            
+            <input type="text" class="id" placeholder="ID (Solo para actualizar)">
+            <input type="text" class="nombre" placeholder="Nombre">
+            <input type="number" class="numero" placeholder="Número Telefonico">
+            <input type="email" class="correo" placeholder="Correo">
+            <input class="fechaNacimiento" placeholder="Fecha de Nacimiento AAAA-MM-DD">
+            <button class="btn-agregar-tarea">Agregar</button>
+            <button class= "btn-actualizar-contacto">Actualizar</button>
+            
+            <div class="contacto-listado">
+                <p id="resultado"></p>
+                <h3 id="id"></h3>
+                <p id="nombre"></p>
+                <p id="telefono"></p>
+                <p id="correo"></p>
+                <p id="fechaNacimiento"></p>
+            </div>
+
+            <!-- Lista de Contactos-->
+            <div class="listado-contactos">
+                <div class="tarea">
+                    <h3 >ID</h3>
+                    <p>Nombre</p>
+                    <p >Tel</p>
+                    <p>Correo</p>
+                    <p>Fecha Nacimiento</p>
+                    <p >Eliminar</p>
+                    <p >Activo</p>
+
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+</body>
+
+</html>
