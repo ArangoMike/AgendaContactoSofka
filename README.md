@@ -26,8 +26,8 @@ spring.datasource.password=123456789 --AQUI--
 
 ## Configuración politicas CORS:
 
-En este paso tendrás que cambiar el link desde donde estas consumiendo el servicio REST
-el archivo esta en src/main/java/com/sofka/AgendaTel .
+En este paso tendrás que cambiar la URL desde donde estas consumiendo el servicio REST,
+el archivo esta en src/main/java/com/sofka/AgendaTel . (escribela completa con http y localhost...)
 
 <pre>
 
