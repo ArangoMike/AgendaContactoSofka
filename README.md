@@ -15,7 +15,7 @@ Aquí tendrás que configurar en la carpeta resourse src/main/resources/applicat
 
 # Configuración para MySQL 8
 spring.datasource.url=jdbc:mysql://localhost/agendaTel?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrival=true --AQUI--
-Remplaza la palabra agendaTel por el nombre de tu BD
+			--Remplaza la palabra agendaTel por el nombre de tu BD--
 
 # Usuario de base de datos
 spring.datasource.username=root. --AQUI--
@@ -24,7 +24,7 @@ spring.datasource.username=root. --AQUI--
 spring.datasource.password=123456789 --AQUI--
 </pre>
 
-##Configuración politicas CORS:
+## Configuración politicas CORS:
 
 En este paso tendrás que cambiar el link desde donde estas consumiendo el servicio REST
 el archivo esta en src/main/java/com/sofka/AgendaTel .
